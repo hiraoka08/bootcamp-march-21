@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.all{
+    border: double;
+    padding: 50px;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+.header .the{
+    color: gray;
+    margin-top: 25px;
+    letter-spacing: 5px;
+}
+.header h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.header .sepcialist{
+    color: gray;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+.nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid gray;
+    width: 60%;
+    display: inline-block; 
+    text-align: center;
+}
+.nav ul li{
+    display: inline-block; 
+    text-align: center;
+    /* display: flex; */
+    margin: 20px 35px;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.nav ul li .home-red{
+    color: red;
+}
+.container{
+    display: inline-block; 
+    text-align: center;
+    width: 60%;
+}
+.container img{
+    /* display: inline-block; */
+    /* display: flex; */
+    position: relative;
+    left:0.05%;
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    text-align: center;
+    margin: 25px auto;
+}
+.section{
+    clear: left;
+}
+.section .article{
+    display: inline-block;
+    width: 60%;
+    overflow-wrap: break-word;
+    text-align: center;
+    letter-spacing: 2px;
+}
